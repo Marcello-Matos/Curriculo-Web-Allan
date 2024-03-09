@@ -1,0 +1,104 @@
+body {
+        background-image: linear-gradient(to bottom, black, #1a17176b);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+}
+    
+
+main  {
+    background-color: white;
+    width: 1199px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid rgba(10, 10, 236, 0.474);
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+h3{
+    font-size: 20px;
+}
+
+li {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 15px;
+    letter-spacing: 09px;
+    margin-top: 90px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+footer#redes-sociais img {
+    width: 70px;
+    box-shadow: 2px 2 px 5px black;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+}
+
+footer#redes-sociais img:hover {
+    border: 2px solid rgba(255,255,255,063);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.734);
+    transition: transform 0.5, border 1s;
+}
+
+footer#redes-sociais p {
+    font-size: 20px;
+    margin-top: -0px;
+    color: rgb(10, 9, 13);
+    
+}
+
+/* Estilos para dispositivos com largura de tela até 600px */
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%; /* Define a largura do elemento como 100% */
+    }
+}
+
+/* Estilos para dispositivos com largura de tela entre 601px e 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    main {
+        width: 80%; /* Define a largura do elemento como 80% */
+        margin: auto; /* Centraliza o elemento na tela */
+    }
+}
+
+/* Estilos para dispositivos com largura de tela maior que 901px */
+@media only screen and (min-width: 901px) {
+    main {
+        width: 1200px; /* Define a largura do elemento como 1200px */
+        margin: auto; /* Centraliza o elemento na tela */
+    }
+}
+
+
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-bottom: 5px solid black;
+    font-size: 12px;
+    border-width: 4px; 
+    
+    
+}
+
+button:hover{
+    background-color: black;
+    box-shadow: 0px 0px 20px black;
+}
